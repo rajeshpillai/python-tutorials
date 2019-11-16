@@ -23,3 +23,18 @@ age = 50
 info = 'The age is ' + str(age)
 
 print (info)
+
+# Multiline string
+this_is_big = """I am gonna create a real big string.
+Will this work.  Ofcourse.  I trust Python!"""
+
+print(this_is_big)
+
+
+# Unicode strings
+raw = "i ♥ cats"
+print (raw)
+
+# Unicode strings
+uni = u"i ♥ cats"
+print (uni)
